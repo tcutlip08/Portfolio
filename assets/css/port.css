@@ -1,22 +1,24 @@
-.Header h1{
-    float: left;
-    margin: 0 0 0 100px;
-    padding: 5px;
-}
-
-.Header2{
-    float: right;
-    margin: 10px 50px 0 0;
-    padding: 5px;
-}
-
 .Header{
     overflow: auto;
     clear: both;
-    border-style: Solid;
+    border-bottom-style: solid;
+    border-width: thin;
     border-color: black;
     background-color: lightgrey;
     height: 50px;
+}
+
+.Header h1{
+    float: left;
+    margin: 0 0 0 100px;
+    padding: 6px;
+    background-color: lightskyblue;
+}
+
+.HeaderLinks{
+    float: right;
+    margin: 10px 50px 0 0;
+    padding: 5px;
 }
 
 .Footer{
@@ -28,4 +30,18 @@
     border-top: solid;
     border-color: black;
     background-color: lightgrey;
+}
+
+.AboutMe{
+    
+}
+
+.AboutMe h2{
+    overflow: auto;
+    clear: both;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 110px;
+    margin-left: 20px;
 }
