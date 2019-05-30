@@ -10,11 +10,22 @@
     padding: 5px;
 }
 
-.Header {
+.Header{
     overflow: auto;
     clear: both;
     border-style: Solid;
     border-color: black;
     background-color: lightgrey;
     height: 50px;
+}
+
+.Footer{
+    position: fixed;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: solid;
+    border-color: black;
+    background-color: lightgrey;
 }
