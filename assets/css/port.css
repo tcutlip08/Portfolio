@@ -6,19 +6,26 @@
     border-color: black;
     background-color: lightgrey;
     height: 50px;
+    margin: 0 0 0 0;
 }
 
 .Header h1{
     float: left;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 150px;
     padding: 6px;
     background-color: lightskyblue;
 }
 
 .HeaderLinks{
     float: right;
-    margin: 10px 50px 0 0;
+    margin: 10px 150px 0 0;
     padding: 5px;
+}
+
+.full{
+    background-color: lightgrey;
+    height: 400px;
+    margin: 0 150px 0 150px;
 }
 
 .Footer{
@@ -32,16 +39,38 @@
     background-color: lightgrey;
 }
 
-.AboutMe{
-    
+.AboutMe p{
+    font-size: 19px;
 }
 
-.AboutMe h2{
+.AboutMe img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.full h2{
     overflow: auto;
     clear: both;
     border-bottom-style: solid;
     border-width: thin;
     border-color: black;
-    width: 110px;
-    margin-left: 20px;
+    margin: 20px 20px 0 20px;
+    padding-top: 10px;
+}
+
+.info{
+    margin: 0 0 0 30px;
+}
+
+.info input{
+    margin: 0 0 10px 0;
+}
+
+.iName{
+    margin: 0 20px 0 0;
+    width: 300px;
+}
+
+.button{
+    margin: 10px 0 0 30px;
 }
