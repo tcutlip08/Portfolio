@@ -59,8 +59,7 @@
 }
 
 .info{
-    margin: 0 0 0 30px;
-    float: left;
+    margin: 0 20px 0 20px;
 }
 
 .info h4{
@@ -75,6 +74,8 @@
 .info input{
     margin: 0 10% 0 0;
     clear: both;
+    overflow: auto;
+    width: 100%;
 }
 
 .button{
@@ -93,4 +94,6 @@ a:link, a:visited{
 
 .photos img{
     margin: 1% 4% 1% 4%;
+    border-style: Solid;
+    border-color:rgb(46, 46, 46);
 }
