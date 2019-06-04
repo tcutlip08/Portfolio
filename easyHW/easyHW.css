@@ -3,12 +3,71 @@
     clear: both;
     background-color: orangered;
     height: 50px;
-    margin: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 .nav{
     overflow: auto;
     clear: both;
     background-color: darkgray;
+    float: left;
     height: 50px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section{
+    background-color: orangered;
+    height: 300px;
+    margin: 20px 10px 20px 10px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.article{
+    background-color: darkgray;
+    height: 50px;
+    margin: 40px 1.5% 0 1.5%;
+    width: 97%;
+    height: 235px;
+    text-align: center;
+}
+
+.Hs{
+    background-color: orangered;
+    height: 75px;
+    margin: 40px 1.5% 10px 1.5%;
+    width: 97%;
+    text-align: center;
+}
+
+.p{
+    background-color: orangered;
+    height: 75px;
+    margin: 20px 1.5% 10px 1.5%;
+    width: 97%;
+    text-align: center;
+}
+
+.aside{
+    background-color: darkgray;
+    height: 300px;
+    margin: 20px 10px 20px 10px;;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.footer{
+    position: fixed;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
 }
