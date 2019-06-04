@@ -11,21 +11,21 @@
 
 .Header h1{
     float: left;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 10%;
     padding: 6px;
     background-color: lightskyblue;
 }
 
 .HeaderLinks{
     float: right;
-    margin: 10px 150px 0 0;
-    padding: 5px;
+    margin: 0 10% 0 0;
+    padding: 15px;
 }
 
 .full{
     background-color: lightgrey;
-    height: 450px;
-    margin: 0 150px 0 150px;
+    height: 100%;
+    margin: 0 100px 0 100px;
 }
 
 .Footer{
@@ -69,23 +69,28 @@
     border-left-width: thin;
     width: 12px;
     padding: 0 0 0 2px;
+    clear: both;
 }
 
 .info input{
-    margin: 0 0 10px 0;
+    margin: 0 10% 0 0;
+    clear: both;
 }
 
 .button{
-    margin: 10px 40px 0 0;
-    float: right;
+    margin: 20px 0 0 0;
+    float: left;
 }
 
 a:link, a:visited{
     color: darkblue;
     text-decoration: none;
-    font: bold;
 }
 
-a:hover{
-    transition-duration: 0.4s;
+.photos{
+    text-align: center;
+}
+
+.photos img{
+    margin: 1% 4% 1% 4%;
 }

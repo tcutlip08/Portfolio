@@ -1,9 +1,10 @@
 <!DOCTYPE html>
     <head>
         <title>Timothy's Bio</title>
-        <link rel="portfolio" href="Portfolio/Port.html">
-        <link rel="contact" href="Portfolio/contact.html">
-        <link rel="index" href="Portfolio/index.html">
+        <link rel="reset css" href="assets\reset.css">
+        <link rel="portfolio" href="Port.html">
+        <link rel="contact" href="contact.html">
+        <link rel="index" href="index.html">
         <link rel="stylesheet" type="text/css" href="assets\css\port.css">
     </head>
 
@@ -14,9 +15,9 @@
 
                 
                 <div class="HeaderLinks">
-                    <a href="index.html">About</a>&nbsp;|
-                    <a href="Port.html">Portfolio</a>&nbsp;|
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html" title="Info about Timothy">About</a>&nbsp;|
+                    <a href="port.html" title="Pictures involving Timothy">Portfolio</a>&nbsp;|
+                    <a href="contact.html" title="Contacting Timothy">Contact</a>
                 </div>
             </div>
     <div class="full">
@@ -24,15 +25,21 @@
                 <h2>Contact</h2>
 
                 <div class="info">
+                    
                     <h4>Name</h4>
                     <div class="iName">
-                        <input>
+                        <input type="text" name="name" size="150%">
                     </div>
+
                     <h4>Email</h4>
-                    <input>
+                    <div class="iEmail">
+                        <input type="text" name="email" size="100%">
+                    </div>
 
                     <h4>Message</h4>
-                    <input>
+                    <div class="iMessage">
+                        <input type="text" name="message" size="100%" style="height:75px;">
+                    </div>
                 </div>
                 <div class="button">
                     <button>Submit</button>
