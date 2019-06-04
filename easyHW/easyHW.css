@@ -1,0 +1,14 @@
+.header{
+    overflow: auto;
+    clear: both;
+    background-color: orangered;
+    height: 50px;
+    margin: 10px;
+}
+.nav{
+    overflow: auto;
+    clear: both;
+    background-color: darkgray;
+    height: 50px;
+    margin: 10px;
+}
